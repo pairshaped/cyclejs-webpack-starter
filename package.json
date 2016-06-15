@@ -1,0 +1,33 @@
+{
+  "name": "cyclejs-webpack-starter",
+  "version": "1.0.1",
+  "description": "Cycle.js Webpack Starter",
+  "main": "./src/index.js",
+  "repository": "git@github.com:pairshaped/cyclejs-webpack-starter.git",
+  "scripts": {
+    "start": "webpack-dev-server --port 3000",
+    "build": "webpack"
+  },
+  "author": "Dave Rapin",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-eslint": "^6.0.4",
+    "babel-loader": "^6.2.4",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-node6": "^11.0.0",
+    "css-loader": "^0.23.1",
+    "standard": "^7.1.2",
+    "standard-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^2.1.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "@cycle/core": "^6.0.3",
+    "@cycle/dom": "^9.4.0",
+    "rx": "^4.1.0"
+  }
+}
